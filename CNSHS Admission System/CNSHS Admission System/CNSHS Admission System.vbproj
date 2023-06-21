@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{403CC2AD-6CDE-4EB8-9161-371319F9C115}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CNSHS_Admission_System.My.MyApplication</StartupObject>
+    <RootNamespace>CNSHS_Admission_System</RootNamespace>
+    <AssemblyName>CNSHS Admission System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CNSHS Admission System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CNSHS Admission System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.31.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Downloads\MySql.Data.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Applicant_Acad_Year.Designer.vb">
+      <DependentUpon>Applicant_Acad_Year.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant_Acad_Year.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant_Exam.Designer.vb">
+      <DependentUpon>Applicant_Exam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant_Exam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant_Grade.Designer.vb">
+      <DependentUpon>Applicant_Grade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant_Grade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant_Subject.Designer.vb">
+      <DependentUpon>Applicant_Subject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant_Subject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="db_connection.vb" />
+    <Compile Include="Applicant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant.Designer.vb">
+      <DependentUpon>Applicant.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CNSHS_ADMISSION_SYSTEM_MENU.Designer.vb">
+      <DependentUpon>CNSHS_ADMISSION_SYSTEM_MENU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CNSHS_ADMISSION_SYSTEM_MENU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exam.Designer.vb">
+      <DependentUpon>Exam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Landing_Page.Designer.vb">
+      <DependentUpon>Landing_Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Landing_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Requirement.Designer.vb">
+      <DependentUpon>Requirement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Requirement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Section.Designer.vb">
+      <DependentUpon>Section.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Section.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subject.Designer.vb">
+      <DependentUpon>Subject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Subject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher.Designer.vb">
+      <DependentUpon>Teacher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Validates_Applicant.Designer.vb">
+      <DependentUpon>Validates_Applicant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Validates_Applicant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Applicant.resx">
+      <DependentUpon>Applicant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant_Acad_Year.resx">
+      <DependentUpon>Applicant_Acad_Year.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant_Exam.resx">
+      <DependentUpon>Applicant_Exam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant_Grade.resx">
+      <DependentUpon>Applicant_Grade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant_Subject.resx">
+      <DependentUpon>Applicant_Subject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CNSHS_ADMISSION_SYSTEM_MENU.resx">
+      <DependentUpon>CNSHS_ADMISSION_SYSTEM_MENU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam.resx">
+      <DependentUpon>Exam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Landing_Page.resx">
+      <DependentUpon>Landing_Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Requirement.resx">
+      <DependentUpon>Requirement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Section.resx">
+      <DependentUpon>Section.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subject.resx">
+      <DependentUpon>Subject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher.resx">
+      <DependentUpon>Teacher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Validates_Applicant.resx">
+      <DependentUpon>Validates_Applicant.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

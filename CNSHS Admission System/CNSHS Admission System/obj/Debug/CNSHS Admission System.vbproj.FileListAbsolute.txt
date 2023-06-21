@@ -1,0 +1,28 @@
+c:\users\albos\onedrive\documents\visual studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\bin\Debug\CNSHS Admission System.exe.config
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\bin\Debug\CNSHS Admission System.exe
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\bin\Debug\CNSHS Admission System.pdb
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\bin\Debug\CNSHS Admission System.xml
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\bin\Debug\MySql.Data.DLL
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS Admission System.vbprojResolveAssemblyReference.cache
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Applicant.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.CNSHS_ADMISSION_SYSTEM_MENU.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Resources.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS Admission System.vbproj.GenerateResource.Cache
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS Admission System.exe
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS Admission System.xml
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS Admission System.pdb
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Landing_Page.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Exam.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Section.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Subject.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Teacher.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Applicant_Exam.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Requirement.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Applicant_Grade.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Validates_Applicant.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Applicant_Acad_Year.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS_Admission_System.Applicant_Subject.resources
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS_ADMISSION_SYSTEM_FINAL\CNSHS Admission System\CNSHS Admission System\bin\Debug\CNSHS Admission System.exe.config
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS_ADMISSION_SYSTEM_FINAL\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS Admission System.exe
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS_ADMISSION_SYSTEM_FINAL\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS Admission System.xml
+C:\Users\albos\OneDrive\Documents\Visual Studio 2013\Projects\CNSHS_ADMISSION_SYSTEM_FINAL\CNSHS Admission System\CNSHS Admission System\obj\Debug\CNSHS Admission System.pdb
